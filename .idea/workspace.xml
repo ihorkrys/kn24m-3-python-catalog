@@ -4,132 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8603f28-fcfa-4330-a824-3c76e112fc87" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/cursova.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0002_category_load.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog_app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog_app/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog_app/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog_app/csv_import.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog_app/migrations/0002_csv_load.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog_app/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog_app/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog_app/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog_app/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog_app/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cursova/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cursova/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cursova/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cursova/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cursova/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/CAN001_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/CAN001_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/CAN001_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/CAN002_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/CAN002_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/CAN002_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/CAN003_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/CAN003_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/CAN003_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/CAN004_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/CAN004_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/CAN004_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/CAN005_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/CAN005_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/CAN005_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/CAN006_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/CAN006_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/CAN006_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/CAN007_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/CAN007_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/CAN007_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/CAN008_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/CAN008_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/CAN008_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/CAN009_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/CAN009_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/CAN009_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/CAN010_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/CAN010_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/CAN010_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAI001_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAI001_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAI002_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAI002_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAI002_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAI003_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAI003_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAI003_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAI004_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAI004_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAI004_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAI005_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAI005_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAI005_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAI006_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAI006_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAI006_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAI007_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAI007_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAI007_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAI008_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAI008_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAI008_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAI009_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAI009_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAI009_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAI010_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAI010_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAI010_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAP001_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAP001_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAP001_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAP002_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAP002_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAP002_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAP003_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAP003_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAP003_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAP004_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAP004_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAP004_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAP005_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAP005_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAP005_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAP006_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAP006_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAP006_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAP007_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAP007_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAP007_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAP008_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAP008_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAP008_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAP009_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAP009_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAP009_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAP010_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAP010_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media_root/images/PAP010_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/breadcrumbs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/carousel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/category_header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/item_card.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/item_details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/item_details_page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/pagination.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/scripts.html" afterDir="false" />
+    <list default="true" id="f8603f28-fcfa-4330-a824-3c76e112fc87" name="Changes" comment="[cursova] Commit">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cursova/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/cursova/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,12 +107,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1733304128924</updated>
-      <workItem from="1733304135176" duration="42015000" />
+      <workItem from="1733304135176" duration="43822000" />
     </task>
+    <task id="LOCAL-00001" summary="[cursova] Commit">
+      <option name="closed" value="true" />
+      <created>1733424878265</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733424878265</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[cursova] Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="[cursova] Commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
