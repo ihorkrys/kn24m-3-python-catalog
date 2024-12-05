@@ -1,0 +1,25 @@
+{% for item in items %}
+    <div class="col-lg-3 col-md-6 mb-4">
+
+        <div class="card">
+
+            <div class="view overlay">
+                <a href="{{ item.get_absolute_url }}">
+                    <img src="{{ item.title_image.url }}" class="card-img-top" alt="{{ item.name }}">
+                </a>    
+            </div>
+
+            <div class="card-body text-center">
+                <a href="{{ item.get_absolute_url }}" class="grey-text">
+                    <h5>{{ item.name }}</h5>
+                </a>
+                <h4 class="font-weight-bold blue-text">
+                    <strong>{{ item.price }} UAH</strong>
+                </h4>
+
+            </div>
+
+        </div>
+
+    </div>
+{% endfor %}

@@ -1,0 +1,12 @@
+<!-- breadcrumb -->
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="/">Home</a></li>
+      {% if active_category and item_details %}
+          <li class="breadcrumb-item" aria-current="page"><a href="{{ active_category.get_absolute_url }}">{{ active_category.name }}</a></li>
+        <li class="breadcrumb-item active" aria-current="page">{{ item_details.name }}</li>
+      {% elif active_category %}
+        <li class="breadcrumb-item active" aria-current="page">{{ active_category.name }}</li>
+      {% endif %}
+  </ol>
+</nav>
