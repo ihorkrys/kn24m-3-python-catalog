@@ -10,19 +10,27 @@
                     <h4 class="product-detail-name m-text16 p-b-13">{{ item_details.name }}</h4>
                 </div>
                 <div class="row">
-                    <div class="col">
-                        <span class="s-text6 m-r-35">SKU:</span>
+                    <div class="col-2">
+                        <span class="s-text6">Залишок:</span>
                     </div>
                     <div class="col">
-                        <span class="s-text6 m-r-35">{{ item_details.sku }}</span>
+                        <span class="s-text6">{{ item_details.stock }}</span>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col">
-                        <span class="s-text6 m-r-35">Рекомендована ціна:</span>
+                    <div class="col-2">
+                        <span class="s-text6">SKU:</span>
                     </div>
                     <div class="col">
-                        <span class="font-weight-bold m-r-35">{{ item_details.price }} UAH</span>
+                        <span class="s-text6">{{ item_details.sku }}</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <span class="s-text6">Рекомендована ціна:</span>
+                    </div>
+                    <div class="col">
+                        <span class="font-weight-bold">{{ item_details.price }} UAH</span>
                     </div>
                 </div>
                 <div class="row">

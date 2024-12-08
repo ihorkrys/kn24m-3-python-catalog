@@ -21,7 +21,7 @@ class HomeView(View):
             'categories': categories,
             'items': items
         }
-        return render(self.request, 'home.html', context)
+        return render(self.request, 'index.html', context)
 
 class ItemListView(View):
     def get(self, *args, **kwargs):
@@ -31,8 +31,8 @@ class ItemListView(View):
         else:
             category = None
             items = Item.objects.all()
-        all_categories = Category.objects.all()
-        paginator = Paginator(items, 8)
+        all_categories = Category.objects.all().order_by("name")
+        paginator = Paginator(items.order_by("name"), 8)
         page_number = self.request.GET.get("page")
         page_obj = paginator.get_page(page_number)
         context = {
@@ -41,7 +41,7 @@ class ItemListView(View):
             'items': page_obj.object_list,
             'page_obj': page_obj
         }
-        return render(self.request, 'home.html', context)
+        return render(self.request, 'index.html', context)
 
 class ItemDetailsView(View):
     def get(self, *args, **kwargs):
@@ -55,4 +55,4 @@ class ItemDetailsView(View):
             'item_details': item,
             "images": images
         }
-        return render(self.request, 'home.html', context)
+        return render(self.request, 'index.html', context)
